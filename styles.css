@@ -174,7 +174,7 @@ body {
     position: relative;
     width: 90%;
     max-width: 350px;
-    margin: 30px auto 0 auto;
+    margin: 0 auto 0 auto;
     /* border-style: solid;
     border-color: yellow; */
   }
@@ -187,17 +187,10 @@ body {
   .hero {
     flex-direction: column;
     text-align: center;
+    padding: 0px;
   }
 
-}
-
-@media (max-width: 600px) {
-
-  .hero {
-    padding: 50px 6%;
-  }
-
-  .hero-content h1 {
+   .hero-content h1 {
     font-size: 1.5rem;
   }
 
